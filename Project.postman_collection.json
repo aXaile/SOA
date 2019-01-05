@@ -1,0 +1,368 @@
+{
+	"info": {
+		"_postman_id": "d414d5c4-77bb-4bcd-920c-e9e1a0a64cea",
+		"name": "Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create door actionner",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-m2m-origin",
+						"name": "Content-Type",
+						"value": "admin:admin",
+						"type": "text"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/xml;ty=2",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<m2m:ae xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" rn=\"Door\">\n\t<api>app-actioner</api>\n\t<lbl>Type/Actionner Category/Doors Location/home</lbl>\n\t<rr> false</rr>\n</m2m:ae>"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create window actionner",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-m2m-origin",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "admin:admin"
+					},
+					{
+						"key": "Content-type",
+						"type": "text",
+						"value": "application/xml;ty=2"
+					},
+					{
+						"key": "Content-Type",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<m2m:ae xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" rn=\"Window\">\n\t<api>app-actioner</api>\n\t<lbl>Type/Actionner Category/Windows Location/home</lbl>\n\t<rr> false</rr>\n</m2m:ae>"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Light actionner",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-m2m-origin",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "admin:admin"
+					},
+					{
+						"key": "Content-type",
+						"type": "text",
+						"value": "application/xml;ty=2"
+					},
+					{
+						"key": "Content-Type",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<m2m:ae xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" rn=\"Light\">\n\t<api>app-actioner</api>\n\t<lbl>Type/Actionner Category/Light Location/home</lbl>\n\t<rr> false</rr>\n</m2m:ae>"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create blinds actionner",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-m2m-origin",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "admin:admin"
+					},
+					{
+						"key": "Content-type",
+						"type": "text",
+						"value": "application/xml;ty=2"
+					},
+					{
+						"key": "Content-Type",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<m2m:ae xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" rn=\"Blind\">\n\t<api>app-actioner</api>\n\t<lbl>Type/Actionner Category/Blind Location/home</lbl>\n\t<rr> false</rr>\n</m2m:ae>"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create presence sensor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-m2m-origin",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "admin:admin"
+					},
+					{
+						"key": "Content-type",
+						"type": "text",
+						"value": "application/xml;ty=2"
+					},
+					{
+						"key": "Content-Type",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<m2m:ae xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" rn=\"Presence_sensor\">\n\t<api>app-actioner</api>\n\t<lbl>Type/Sensor Category/Presence Location/Room</lbl>\n\t<rr> false</rr>\n</m2m:ae>"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create time sensor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-m2m-origin",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "admin:admin"
+					},
+					{
+						"key": "Content-type",
+						"type": "text",
+						"value": "application/xml;ty=2"
+					},
+					{
+						"key": "Content-Type",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<m2m:ae xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" rn=\"Time_sensor\">\n\t<api>app-actioner</api>\n\t<lbl>Type/Sensor Category/Time Location/Room</lbl>\n\t<rr> false</rr>\n</m2m:ae>"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create temperature sensor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-m2m-origin",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "admin:admin"
+					},
+					{
+						"key": "Content-type",
+						"type": "text",
+						"value": "application/xml;ty=2"
+					},
+					{
+						"key": "Content-Type",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<m2m:ae xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" rn=\"Temperature_sensor\">\n\t<api>app-sensor</api>\n\t<lbl>Type/Sensor Category/Temperature</lbl>\n\t<rr> false</rr>\n</m2m:ae>"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create light sensor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-m2m-origin",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "admin:admin"
+					},
+					{
+						"key": "Content-type",
+						"type": "text",
+						"value": "application/xml;ty=2"
+					},
+					{
+						"key": "Content-Type",
+						"value": "admin:admin"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<m2m:ae xmlns:m2m=\"http://www.onem2m.org/xml/protocols\" rn=\"Light_sensor\">\n\t<api>app-sensor</api>\n\t<lbl>Type/Sensor Category/Light Location/Room</lbl>\n\t<rr> false</rr>\n</m2m:ae>"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/~/in-cse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"~",
+						"in-cse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
