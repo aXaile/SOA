@@ -1,0 +1,6 @@
+<m2m:cin xmlns:m2m="http://www.onem2m.org/xml/protocols" rn = "temperature_sensors_inside" >
+    <api>sensor</api>
+	<lbl>Type/Sensor Category/Temperature Location/inside</lbl>
+	<con>ValeurFictive</con>
+	<rr> false</rr>
+</m2m:cin>

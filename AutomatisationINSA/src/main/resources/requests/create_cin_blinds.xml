@@ -1,0 +1,6 @@
+<m2m:cin xmlns:m2m="http://www.onem2m.org/xml/protocols" rn = "blinds_actuator" >
+    <api>actuator</api>
+	<lbl>Type/Actuator Category/Blinds Location/inside</lbl>
+	<con>ValeurFictive</con>
+	<rr> false</rr>
+</m2m:cin>

@@ -1,0 +1,6 @@
+<m2m:cin xmlns:m2m="http://www.onem2m.org/xml/protocols" rn = "presence_sensor" >
+    <api>sensor</api>
+	<lbl>Type/Sensor Category/Presence Location/inside</lbl>
+	<con>ValeurFictive</con>
+	<rr> false</rr>
+</m2m:cin>

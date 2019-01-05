@@ -1,0 +1,6 @@
+<m2m:cin xmlns:m2m="http://www.onem2m.org/xml/protocols" rn = "light_sensor" >
+    <api>sensor</api>
+	<lbl>Type/Sensor Category/Light Location/inside</lbl>
+	<con>ValeurFictive</con>
+	<rr> false</rr>
+</m2m:cin>

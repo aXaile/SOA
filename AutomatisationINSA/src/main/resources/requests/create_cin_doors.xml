@@ -1,0 +1,6 @@
+<m2m:cin xmlns:m2m="http://www.onem2m.org/xml/protocols" rn = "doors_actuator" >
+    <api>actuator</api>
+	<lbl>Type/Actuator Category/Doors Location/inside</lbl>
+	<con>ValeurFictive</con>
+	<rr> false</rr>
+</m2m:cin>
