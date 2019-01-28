@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "7d488fca-b289-4a5d-aa7b-a117f9f234f7",
+		"name": "TestWSManager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test alarmManager",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/SOA-master_AutomationRooms/api/alarmManager",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"SOA-master_AutomationRooms",
+						"api",
+						"alarmManager"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test lightDecision/time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/SOA-master_AutomationRooms/api/lightDecision/time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"SOA-master_AutomationRooms",
+						"api",
+						"lightDecision",
+						"time"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test lightDecision/brightness",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/SOA-master_AutomationRooms/api/lightDecision/brightness",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"SOA-master_AutomationRooms",
+						"api",
+						"lightDecision",
+						"brightness"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test WindowManager",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/SOA-master_AutomationRooms/api/windowManager/time_temp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"SOA-master_AutomationRooms",
+						"api",
+						"windowManager",
+						"time_temp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Door Manager",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/SOA-master_AutomationRooms/api/doorManager",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"SOA-master_AutomationRooms",
+						"api",
+						"doorManager"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
